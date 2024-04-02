@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="scritp.js" defer></script>
+</head>
+<body>
+
+ <div class="calculator">
+  <div class="top">
+    <p class="logo topColor">calc</p>
+    <div class="right">
+      <span class="topColor">THEME</span>
+      <div class="theme">
+        <p class="themeNum topColor">1</p>
+        <p class="themeNum topColor">2</p>
+        <p class="themeNum topColor">3</p>
+      </div>
+    </div>
+  </div>
+  <div class="output">
+    <div data-previous-operand class="previous-operand"></div>
+    <div data-current-operand class="current-operand"></div>
+  </div>
+  <div class="buttons">
+    <button data-number class="btn number">7</button>
+    <button data-number class="btn number">8</button>
+    <button data-number class="btn number">9</button>
+    <button data-delete class="btn" id="delete">Del</button>
+    <button data-number class="btn number">4</button>
+    <button data-number class="btn number">5</button>
+    <button data-number class="btn number">6</button>
+    <button data-operations class="btn number">+</button>
+    <button data-number class="btn number">1</button>
+    <button data-number class="btn number">2</button>
+    <button data-number class="btn number">3</button>
+    <button data-operations class="btn number">-</button>
+    <button data-number class="btn number" id="decimal">.</button>
+    <button data-number class="btn number">0</button>
+    <button data-operations class="btn number">&div;</button>
+    <button data-operations class="btn number">&cross;</button>
+    <button data-all-clear class="reset">RESET</button>
+    <button data-equals class="egual">=</button>
+  </div>
+ </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
